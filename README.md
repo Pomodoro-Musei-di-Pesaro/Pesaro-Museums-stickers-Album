@@ -11,3 +11,8 @@ This work is licensed under a
 
 # Pesaro-Museums-stikers-album
 Album di figurine per i Musei di Pesaro.
+
+---
+
+# To-Do
+- Scrivere struttura album di figurine
