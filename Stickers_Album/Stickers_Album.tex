@@ -1,0 +1,60 @@
+\documentclass[hidelinks,12pt,a4paper,openright,twoside]{book}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fourier}
+
+% Images
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\graphicspath{ {../Images} }
+
+% Background page image.
+\usepackage{eso-pic}
+\usepackage[top=2cm, bottom=2cm, outer=0cm, inner=0cm]{geometry}
+
+
+% License
+\usepackage[
+type={CC},
+modifier={by-nc-sa},
+version={4.0},
+]{doclicense}
+
+\begin{document}
+	
+	% Remove page number
+	\pagestyle{empty}
+	
+	% Album Cover
+	\begin{center}
+		\vspace*{15mm}
+		\fboxrule=4pt{
+		\fbox{ %                  height                                width
+			\begin{minipage}[l] [\dimexpr 0.150\textwidth \relax] [t] {\dimexpr .460\textwidth \relax}
+				\vspace{5mm}
+				\centering{\large \textbf{Album sulle opere del Museo Civico\\}}
+				\bigskip
+				Alice Balestieri \\
+				Francesco Rombaldoni
+			\end{minipage}
+			}
+		}
+	\end{center}
+	
+	% Background image
+	\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{example-image}}
+	\clearpage
+	
+	\newpage
+	
+	\begin{center}
+		\fbox{
+			\begin{minipage}{5cm}
+				\includegraphics[draft=true,width=5cm]{example-image-a}
+			\end{minipage}
+		}
+	\end{center}
+	
+\end{document}
