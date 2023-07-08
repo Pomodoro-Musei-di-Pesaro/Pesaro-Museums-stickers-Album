@@ -14,6 +14,8 @@
 \usepackage{eso-pic}
 \usepackage[top=2cm, bottom=2cm, outer=0cm, inner=0cm]{geometry}
 
+% To hide images
+\usepackage[allfiguresdraft]{draftfigure}
 
 % License
 \usepackage[
@@ -44,15 +46,16 @@ version={4.0},
 	\end{center}
 	
 	% Background image
-	\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{example-image}}
-	\clearpage
+	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image}}
+	%\clearpage
 	
 	\newpage
 	
 	\begin{center}
 		\fbox{
 			\begin{minipage}{5cm}
-				\includegraphics[draft=true,width=5cm]{example-image-a}
+				\setdf{content={This figure is switched off.}}
+				\includegraphics[width=5cm]{example-image-c}
 			\end{minipage}
 		}
 	\end{center}
