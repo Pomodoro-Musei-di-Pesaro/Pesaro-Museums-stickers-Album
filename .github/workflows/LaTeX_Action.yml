@@ -10,5 +10,5 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with: # insert here files to compile
           root_file: |
-            Stickers_Album/Stickers_Album.tex
+            Stickers_Album/*.tex
       - run: echo "Tutto Okay :)"
