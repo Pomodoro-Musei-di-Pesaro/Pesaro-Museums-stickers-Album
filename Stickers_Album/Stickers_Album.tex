@@ -17,6 +17,8 @@
 % To hide images
 \usepackage[allfiguresdraft]{draftfigure}
 
+\usepackage{xcolor}
+
 % License
 \usepackage[
 type={CC},
@@ -52,12 +54,9 @@ version={4.0},
 	\newpage
 	
 	\begin{center}
-		\fbox{
-			\begin{minipage}{5cm}
-				\setdf{content={This figure is switched off.}}
-				\includegraphics[width=5cm]{example-image-c}
-			\end{minipage}
-		}
+				\setdf{content={\textcolor{white}{This figure is switched off.}}}
+				\colorbox{black}{\includegraphics[width=5cm]{Mengaroni_Ferruccio-Medusa.jpg}}
+				\captionof{figure}{Questa è una bella immagine :)}
 	\end{center}
 	
 \end{document}
