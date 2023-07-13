@@ -1,4 +1,4 @@
-name: Build LaTeX document # Action name
+name: Build LaTeX documents # Action name
 on: [push]
 jobs:
   build_latex:
@@ -8,13 +8,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
-        with: # insert here file to compile
+        with: # insert here files to compile
           root_file: |
             Stickers_Album/Stickers_Album.tex
       - run: echo "Tutto Okay :)"
-      
-      #- name: Upload PDF file
-       # uses: actions/upload-artifact@v3
-        #with:
-         # name: PDF
-          #path: main.pdf
