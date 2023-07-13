@@ -11,6 +11,7 @@ jobs:
         with: # insert here file to compile
           root_file: |
             Stickers_Album/Stickers_Album.tex
+      - run: echo "Tutto Okay :)"
       
       #- name: Upload PDF file
        # uses: actions/upload-artifact@v3
