@@ -8,6 +8,11 @@ Album di figurine per i Musei di Pesaro.
 
 ---
 
+# In caso di nessuna Release
+Scarica il [documento](https://nightly.link/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/workflows/LaTeX_Action/main/Album.zip) dimostrativo.
+
+---
+
 # License
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
