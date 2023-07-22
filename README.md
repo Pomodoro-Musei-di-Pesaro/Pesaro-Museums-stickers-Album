@@ -29,3 +29,4 @@ This work is licensed under a
 
 # To-Do
 - Scrivere struttura album di figurine
+- Scrivere documento contenente le figurine per l'album
