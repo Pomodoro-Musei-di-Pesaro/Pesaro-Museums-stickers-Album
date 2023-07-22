@@ -11,8 +11,10 @@ jobs:
         with: # insert here files to compile
           working_directory: Stickers_Album
           root_file: Stickers_Album.tex
+      - name: Ridenominazione files
+        run: mv Stickers_Album/Stickers_Album.pdf Stickers_Album/Album_di_Figurine.pdf
       - name: Caricamento della Release temporanea
         uses: actions/upload-artifact@v3
         with: 
           name: Album
-          path: Stickers_Album/Stickers_Album.pdf
+          path: Stickers_Album/Album_di_Figurine.pdf
