@@ -59,8 +59,6 @@ version={4.0},
 	
 	% Background image
 	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image}}
-	%\clearpage
-	
 	\newpage
 	
 	%--------- Page 1 ----------
@@ -103,7 +101,6 @@ version={4.0},
 
 	% Background image
 	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image-plain}}
-	
 	\newpage
 		
 	%--------- Page 2 ----------
@@ -139,20 +136,71 @@ version={4.0},
 	\end{tabularx}
 
 	% Second line
-	\begin{tabularx}{\textwidth}{XX}
+	\nopagebreak
+	\begin{tabularx}{\textwidth}{X}
 	{	
-		%Giovanni Antonio Garella - Leda e il cigno
-		\setdf{content={\textcolor{white}{\hspace{20mm} \Large \#5}}}
-		\colorbox{black}{\includegraphics[]{Giovanni_Antonio_Garella-Leda_e_il_cigno.jpg}}
-		\begin{minipage}{0.8\linewidth}
-			\raggedright
-			Il pezzo va riferito senza dubbio alcuno al "Maestro della Conversione di San Paolo": appartengono alla sua mano i caratteri del paesaggio e delle figure, come per esempio il profilo di Leda, che richiama con puntualità quelli degli dipinti dipinti sulla tesa.\\
-			Ci troviamo di fronte ad un maestro particolarmente capace sia nell´esecuzione delle scene istoriate, sia nella creazione delle raffaellesche, queste ultime eseguite con grande inventiva di dettagli e con mano sicura, molto distanti anche nella tipologia da quelle dei Fontana oppure dei Patanazzi.
-		\end{minipage}
-	}&{
-
+		\begin{center}
+			\hspace{27mm}
+			%Giovanni Antonio Garella - Leda e il cigno
+			\setdf{content={\textcolor{white}{\hspace{20mm} \Large \#5}}}
+			\colorbox{black}{\includegraphics[]{Giovanni_Antonio_Garella-Leda_e_il_cigno.jpg}}
+			\bigskip
+			\newline
+			\begin{minipage}{0.9\linewidth}
+					\raggedright
+					Il pezzo va riferito senza dubbio alcuno al "Maestro della Conversione di San Paolo": appartengono alla sua mano i caratteri del paesaggio e delle figure, come per esempio il profilo di Leda, che richiama con puntualità quelli degli dipinti sulla tesa.\\
+					Ci troviamo di fronte ad un maestro particolarmente capace sia nell'esecuzione delle scene istoriate, sia nella creazione delle raffaellesche, queste ultime eseguite con grande inventiva di dettagli e con mano sicura, molto distanti anche nella tipologia da quelle dei Fontana oppure dei Patanazzi.
+			\end{minipage}
+		\end{center}
 	}
 	\end{tabularx}
 	
+	% Background image
+	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image-plain}}
+	\newpage
+	
+	%--------- Page 3 ----------
+	
+	% First line 
+	\vspace*{\fill}
+	\begin{tabularx}{\textwidth}{XX}
+		{
+			\begin{center}
+				\hspace{10mm}
+				%Specchio in vetro di Murano
+				\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#6}}}
+				\colorbox{black}{\includegraphics[scale=0.3]{Specchio_di_Murano.jpg}}
+				\bigskip
+				\newline
+				\begin{minipage}{0.8\linewidth}
+					\raggedright
+					L'opera è una specchiera, si definiscono infatti così gli specchi con cornice fatti per essere appesi alle pareti a scopi funzionali e decorativi.\\ 
+					Realizzata tra la fine del Settecento e l'inizio dell'Ottocento, è decorata con foglie e fiori in vetro che costituiscono la  peculiarità delle specchiere artistiche di Murano.\\
+					La produzione muranese nel Settecento eleva il livello medio della produzione ad un grado di eleganza e raffinatezza mai raggiunto prima.
+				\end{minipage}
+			\end{center}
+			
+		}&{
+			\vspace{20mm}
+				%Vedute di Roma
+				\hspace{10mm}{
+				\setdf{content={\textcolor{white}{\hspace{30mm} \Large \#7}}}
+				\colorbox{black}{\includegraphics[scale=0.35]{Vedute_di_Roma_1.jpg}}
+				}
+				%\bigskip
+				%\newline
+				\begin{center}
+					\begin{minipage}{0.7\linewidth}
+						\raggedright
+						L'usanza di decorare il fronte di stipi e studioli con placche raffiguranti vedute dell'urbe deve essere fatta risalire agli anni Sessanta del Seicento, come si può vedere nella parte interna dello stipo eseguito dall'ebanista Giacomo Herman nel 1668 e attualmente al Kunsthistorisches Museum di Vienna. Va inoltre notato che il tipo di veduta che tende a riprodurre in maniera pressoché fedele il luogo rappresentato si afferma a Roma attorno agli anni Trenta del Seicento, con la presenza a Roma del pittore strasburghese Willhelm Baur.
+					\end{minipage}
+				\end{center}
+		}
+	\end{tabularx}
+	\vspace*{\fill}
+	
+	% Background image
+	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image-plain}}
+	\newpage
 	
 \end{document}
