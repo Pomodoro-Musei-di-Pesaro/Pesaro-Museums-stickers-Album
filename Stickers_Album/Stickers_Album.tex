@@ -26,6 +26,9 @@
 % Adjust margins
 \usepackage{changepage}
 
+% Minipages in the same line
+\usepackage{tabularx}
+
 % License
 \usepackage[
 type={CC},
@@ -87,7 +90,7 @@ version={4.0},
 						\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#2}}}
 						\colorbox{black}{\includegraphics[scale=0.085]{Bellini_Giovanni-Incoronazione_della_Vergine.jpg}}
 					\end{center}
-			
+					\bigskip
 					\begin{center}
 					\begin{minipage}{\linewidth}
 						\raggedright
@@ -105,45 +108,51 @@ version={4.0},
 		
 	%--------- Page 2 ----------
 	
-	% First Line
-	\begin{minipage}{\linewidth}
-		
+	% First line 
+	\begin{tabularx}{\textwidth}{XX}
+	{
+		\hspace{12mm}
 		%Vitale da Bologna - Sant'Ambrogio in trono
-		\begin{minipage}{0.4\linewidth}
-			\begin{center}
-				\setdf{content={\textcolor{white}{\hspace{18mm} \Large \#3}}}
-				\colorbox{black}{\includegraphics[scale=0.06]{Vitale_da_Bologna-Santo_Ambrogio_in_trono.jpg}}
-			\end{center}
-		
-			\begin{center}
-				\begin{minipage}{\linewidth}
-					\raggedright
-					Nonostante sia stata sottoposta in tempi recenti a restauro, la tavola presenta ancora nella superficie pittorica varie abrasioni, dovute forse ad antichi restauri, che ne compromettono in parte la leggibilità. Ciò è evidente soprattutto nella zona del viso del santo, fortemente consunta e priva ormai, nella resa dell'incarnato, di quelle connotazioni più morbidamente sfumate che sono tipiche dell'arte vitalesca.
-				\end{minipage}
-			\end{center}
-		\end{minipage}
-		
-		\begin{adjustwidth}{0mm}{20mm}
-		\raggedleft{
-		% Desani Pietro - Rebecca ed Eleazar
-		\begin{minipage}{0.4\linewidth}
-			\begin{center}
-				\setdf{content={\textcolor{white}{\hspace{15mm} \Large \#4}}}
-				\colorbox{black}{\includegraphics[scale = 0.05]{Desani_Pietro-Rebecca_ed_Eleazar.jpg}}
-			\end{center}
-		
-			\begin{minipage}{\linewidth}
-				\begin{center}
-					\raggedright
-					Il fido Eleazar, mandato in Mesopotamia da Abramo per cercare una sposa per suo figlio Isacco incontra a un pozzo una fanciulla che lo disseta e alla quale consegna i gioielli che gli sono stati dati per l'eletta.\\
-					Secondo quanto si apprende dalle ricerche condotte in questa occasione da Barbara Ghelfi, il dipinto venne ereditato nel 1806 da Maria Malvezzi: nell'occasione veniva detto "Due mezze figure che contrattano delle gioie, d´uno stile che somiglia il Tiarini".
-				\end{center}
-			\end{minipage}
+		\setdf{content={\textcolor{white}{\hspace{18mm} \Large \#3}}}
+		\colorbox{black}{\includegraphics[scale=0.06]{Vitale_da_Bologna-Santo_Ambrogio_in_trono.jpg}}
+		\bigskip
+		\newline
+		\begin{minipage}{0.8\linewidth}
+			\raggedright
+			Nonostante sia stata sottoposta in tempi recenti a restauro, la tavola presenta ancora nella superficie pittorica varie abrasioni, dovute forse ad antichi restauri, che ne compromettono in parte la leggibilità. Ciò è evidente soprattutto nella zona del viso del santo, fortemente consunta e priva ormai, nella resa dell'incarnato, di quelle connotazioni più morbidamente sfumate che sono tipiche dell'arte vitalesca.
 			
 		\end{minipage}
-	}
-\end{adjustwidth}
-	\end{minipage}
+		
+	}&{
+			\hspace{1.5mm}
+			% Desani Pietro - Rebecca ed Eleazar
+			\setdf{content={\textcolor{white}{\hspace{35mm} \Large \#4}}}
+			\colorbox{black}{\includegraphics[scale = 0.05]{Desani_Pietro-Rebecca_ed_Eleazar.jpg}}
+			\bigskip
+			\newline
+			\begin{minipage}{0.9\linewidth}
+				\raggedright
+				Il fido Eleazar, mandato in Mesopotamia da Abramo per cercare una sposa per suo figlio Isacco incontra a un pozzo una fanciulla che lo disseta e alla quale consegna i gioielli che gli sono stati dati per l'eletta.\\
+				Secondo quanto si apprende dalle ricerche condotte in questa occasione da Barbara Ghelfi, il dipinto venne ereditato nel 1806 da Maria Malvezzi: nell'occasione veniva detto "Due mezze figure che contrattano delle gioie, d´uno stile che somiglia il Tiarini".
+			\end{minipage} 
+		}
+	\end{tabularx}
 
+	% Second line
+	\begin{tabularx}{\textwidth}{XX}
+	{	
+		%Giovanni Antonio Garella - Leda e il cigno
+		\setdf{content={\textcolor{white}{\hspace{20mm} \Large \#5}}}
+		\colorbox{black}{\includegraphics[]{Giovanni_Antonio_Garella-Leda_e_il_cigno.jpg}}
+		\begin{minipage}{0.8\linewidth}
+			\raggedright
+			Il pezzo va riferito senza dubbio alcuno al "Maestro della Conversione di San Paolo": appartengono alla sua mano i caratteri del paesaggio e delle figure, come per esempio il profilo di Leda, che richiama con puntualità quelli degli dipinti dipinti sulla tesa.\\
+			Ci troviamo di fronte ad un maestro particolarmente capace sia nell´esecuzione delle scene istoriate, sia nella creazione delle raffaellesche, queste ultime eseguite con grande inventiva di dettagli e con mano sicura, molto distanti anche nella tipologia da quelle dei Fontana oppure dei Patanazzi.
+		\end{minipage}
+	}&{
+
+	}
+	\end{tabularx}
+	
 	
 \end{document}
