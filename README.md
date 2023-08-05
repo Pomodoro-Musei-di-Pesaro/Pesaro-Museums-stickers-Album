@@ -11,8 +11,8 @@ Album di figurine per i Musei di Pesaro.
 ---
 
 # Analytics
-[![views](https://raw.githubusercontent.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/traffic/traffic-Pesaro-Museums-stickers-Album/views.svg)](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/tree/traffic#-Pesaro-Museums-stickers-Album)
-[![clones](https://raw.githubusercontent.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/traffic/traffic-Pesaro-Museums-stickers-Album/clones.svg)](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/tree/traffic#-Pesaro-Museums-stickers-Album)
+[![views](https://raw.githubusercontent.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/traffic/traffic-Pesaro-Museums-stickers-Album/views.svg)](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album)
+[![clones](https://raw.githubusercontent.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/traffic/traffic-Pesaro-Museums-stickers-Album/clones.svg)](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album)
 [![Github all releases](https://img.shields.io/github/downloads/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/total.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/releases/)
 
 ---
