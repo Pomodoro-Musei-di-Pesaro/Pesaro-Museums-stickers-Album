@@ -24,7 +24,8 @@
 \usepackage{xcolor}
 
 % Adjust margins
-\usepackage{changepage}
+%\usepackage{changepage}
+%\usepackage{geometry}
 
 % Minipages in the same line
 \usepackage{tabularx}
@@ -63,41 +64,42 @@ version={4.0},
 	
 	%--------- Page 1 ----------
 		
+	%First line
+	\hspace{5mm}{
+	\begin{tabularx}{\textwidth}{XX}
+		{
+			\hspace{2mm}
 			%  Mengaroni_Ferruccio-Medusa
-			\begin{minipage}{0.5\linewidth}
-				\begin{center}
-					\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#1}}}
-					\colorbox{black}{\includegraphics[scale = 1.2]{Mengaroni_Ferruccio-Medusa.jpg}}
-				\end{center}
-				\begin{center}
-					\begin{minipage}{\linewidth}
-						\raggedright
-						"La Medusa" accoglie i visitatori introducendoli alle sale espositive; si tratta dell'ultima opera di Ferruccio Mengaroni.\\
-						L'imponente Medusa ritrae i lineamenti dell'artista pesarese: la leggenda narra che, per riprodurre il proprio volto, egli si fosse servito di uno specchio che poi si ruppe.
-					\end{minipage}
-			\end{center}
+			\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#1}}}
+			\colorbox{black}{\includegraphics[scale = 1.2]{Mengaroni_Ferruccio-Medusa.jpg}}
+			\bigskip
+			\newline
+			\begin{minipage}{0.8\linewidth}
+				\raggedright
+				"La Medusa" accoglie i visitatori introducendoli alle sale espositive; si tratta dell'ultima opera di Ferruccio Mengaroni.\\
+				L'imponente Medusa ritrae i lineamenti dell'artista pesarese: la leggenda narra che, per riprodurre il proprio volto, egli si fosse servito di uno specchio che poi si ruppe.
 			\end{minipage}
-		
-		\vspace{10mm}
-		
-			\begin{adjustwidth}{0mm}{5mm}
-				\raggedleft{
-				% Bellini_Giovanni-Incoronazione_della_Vergine
-				\begin{minipage}{0.5\linewidth}
-					\begin{center}
-						\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#2}}}
-						\colorbox{black}{\includegraphics[scale=0.085]{Bellini_Giovanni-Incoronazione_della_Vergine.jpg}}
-					\end{center}
-					\bigskip
-					\begin{center}
-					\begin{minipage}{\linewidth}
-						\raggedright
-						La pala, uno straordinario lavoro di carpenteria, costruito in vista, di un estrema semplicità di montaggio e tenuto insieme mirabilmente da pochi cavicchi di legno, fu dipinta per l'altare maggiore della chiesa di San Francesco a Pesaro.
-					\end{minipage}
-				\end{center}
+		}&{}
+	\end{tabularx}
+	}
+
+	% Second line
+	\vspace{5mm}
+	\nopagebreak
+	\begin{tabularx}{\linewidth}{XX}
+		{}&{
+			% Bellini_Giovanni-Incoronazione_della_Vergine
+			\hspace{3mm}
+			\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#2}}}
+			\colorbox{black}{\includegraphics[scale=0.085]{Bellini_Giovanni-Incoronazione_della_Vergine.jpg}}
+			\bigskip
+			\newline
+			\begin{minipage}{0.8\linewidth}
+				\raggedright
+				La pala, uno straordinario lavoro di carpenteria, costruito in vista, di un estrema semplicità di montaggio e tenuto insieme mirabilmente da pochi cavicchi di legno, fu dipinta per l'altare maggiore della chiesa di San Francesco a Pesaro.
 			\end{minipage}
 		}
-	\end{adjustwidth}
+	\end{tabularx}
 
 	% Background image
 	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image-plain}}
@@ -162,11 +164,12 @@ version={4.0},
 	%--------- Page 3 ----------
 	
 	% First line 
-	\vspace*{\fill}
+	\vspace*{-10mm}
+	%\vspace*{\fill}
 	\begin{tabularx}{\textwidth}{XX}
 		{
 			\begin{center}
-				\hspace{10mm}
+				\hspace{5mm}
 				%Specchio in vetro di Murano
 				\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#6}}}
 				\colorbox{black}{\includegraphics[scale=0.3]{Specchio_di_Murano.jpg}}
@@ -197,10 +200,158 @@ version={4.0},
 				\end{center}
 		}
 	\end{tabularx}
-	\vspace*{\fill}
+	%\vspace*{\fill}
+	
+	% Second line
+	\nopagebreak
+	\begin{tabularx}{\linewidth}{XX}
+		{}&{
+			\hspace{15mm}
+			\setdf{content={\textcolor{white}{\hspace{20mm} \Large \#8}}}
+			\colorbox{black}{\includegraphics[scale=0.2]{Orologio_notturno.jpg}}
+			\bigskip
+			\newline
+			\begin{minipage}{0.9\linewidth}
+				\raggedright
+				Cassa non pertinente all'orologio, assemblata nel XIX secolo con una secentesca scultura barocca di legno dorato.
+				Sulla mostra in rame sono dipinte le quattro stagioni su cui l'allegoria del tempo passa veloce ad ali spiegate.
+			\end{minipage}
+		}
+	\end{tabularx}
 	
 	% Background image
 	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image-plain}}
 	\newpage
+	
+	%--------- Page 4 ----------
+	
+	% First line
+		\hspace{5mm}{
+	\begin{tabularx}{\linewidth}{XX}
+		{		
+				\hspace{5mm}
+				%Milani Aureliano - Mercato
+				\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#9}}}
+				\colorbox{black}{\includegraphics[scale=0.05]{Milani_Aureliano-Mercato.jpg}}
+				\bigskip
+				\newline
+				\begin{minipage}{0.8\linewidth}
+					\raggedright
+					La chiesa nel fondo è stata riconosciuta in Santa Maria in Cosmedin a Roma, la cui facciata venne ultimata nel 1718 su disegno di Giuseppe Sardi. La denominazione della piazza antistante deriva dalla presenza di un mascherone romano sotto il portico, noto tra il popolino come "bocca della Verità".
+				\end{minipage}
+		}&{
+				\hspace{3mm}
+				%Berentz Christian - Fiori e frutta con bicchieri di cristallo
+				\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#10}}}
+				\colorbox{black}{\includegraphics[scale= 0.08]{Berentz_Christian-Fiori_e_frutta_con_bicchieri_di_cristallo.jpg}}
+				\bigskip
+				\newline
+				\begin{minipage}{0.8\linewidth}
+					\raggedright
+					Vero e proprio saggio di bravura del pittore amburghese giunto a Roma attorno al 1685, il dipinto coniuga la verità 'ottica' della cultura nordica con la teatralità della natura morta barocca romana.
+				\end{minipage}
+		}
+	\end{tabularx}
+	}
+
+	% Second line
+	\vspace{5mm}
+	\hspace{5mm}{
+	\nopagebreak
+	\begin{tabularx}{\linewidth}{XX}
+		{	
+			\hspace{5mm}	
+			%Gianlisi Antonio Junior - Trompe l'oeil con sonetto in onore di Eugenio di Savoia e mensola con oggetti
+			\setdf{content={\textcolor{white}{\hspace{23mm} \Large \#11}}}
+			\colorbox{black}{\includegraphics[scale=0.08]{Gianlisi_Antonio_Junior-Trompe_l_oeil_con_sonetto_in_onore_di_Eugenio_di_Savoia_e_mensola_con_oggetti.jpg}}
+			\bigskip
+			\newline
+			\begin{minipage}{0.8\linewidth}
+				\centering
+				Informazioni~Mancanti.
+			\end{minipage}
+		}&{
+			\hspace{5mm}
+			%Gianlisi Antonio Junior - Trompe l'oeil con paesaggio forbici e mensola con oggetti
+			\setdf{content={\textcolor{white}{\hspace{25mm} \Large \#12}}}
+			\colorbox{black}{\includegraphics[scale=0.08]{Gianlisi_Antonio_Junior-Trompe_l_oeil_con_paesaggio_forbici_e_mensola_con_oggetti.jpg}}
+			\bigskip
+			\newline
+			\begin{minipage}{0.8\linewidth}
+				\centering
+				Informazioni~Mancanti.
+			\end{minipage}
+		}
+	\end{tabularx}
+	}
+	
+	% Background image
+	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image-plain}}
+	\newpage
+	
+	%--------- Page 5 ----------
+	
+	%First line
+	\begin{tabularx}{\linewidth}{XX}
+		{
+			
+				%Scacciani Antonio - Vassoio - Rosa
+				\setdf{content={\textcolor{white}{\hspace{35mm} \Large \#13}}}
+				\colorbox{black}{\includegraphics[]{Scacciani_Antonio-Vassoio-Rosa.jpg}}
+				\bigskip
+				\newline
+				\begin{minipage}{0.9\linewidth}
+					\raggedright
+					Il Settecento è il secolo del ritorno alla natura e ai suoi valori; una ventata arcadica invade l'Europa e il decoro floreale diventa di gran moda: i fiori ornano tessuti, mobili, cornici, pareti, soffitti e ceramiche. La rosa è la protagonista del nuovo indirizzo artistico e Pesaro lega il proprio nome a questo fiore.
+				\end{minipage}
+		}&{
+				%Realfonzo Tommaso - Natura morta con dolci frutta uova e formaggi
+				\setdf{content={\textcolor{white}{\hspace{35mm} \Large \#14}}}
+				\colorbox{black}{\includegraphics[scale=0.8]{Realfonzo_Tommaso-Natura_morta_con_dolci_frutta_uova_e_formaggi.jpg}}
+				\bigskip
+				\newline
+				\begin{minipage}{0.9\linewidth}
+					\raggedright
+					 Il Cottino (1993), che per primo ha pubblicato questa coppia di nature morte, ne individuava correttamente la matrice partenopea, sottolineandone anche gli stretti legami con la cultura sivigliana dei bodegones. In tal senso, la sua proposta era orientata in direzione di un artista napoletano attivo nella seconda metà del seicento, seguace dello spagnolo Giovanni Quinsa.
+				\end{minipage}
+		}
+	\end{tabularx}
+
+	%Second line
+	\vspace{5mm}
+	\nopagebreak
+	\begin{tabularx}{\linewidth}{X}
+		\begin{center}
+			
+			%Gessi Giovan Francesco - Morte di Adone
+			\hspace{25mm}
+			\setdf{content={\textcolor{white}{\hspace{35mm} \Large \#15}}}
+			\colorbox{black}{\includegraphics[scale=0.052]{Gessi_Giovan_Francesco-Morte_di_Adone.jpg}}
+			\bigskip
+			\newline
+			\begin{minipage}{0.8\linewidth}
+				\raggedright
+				Sorprende nell'ultimo catalogo della Pinacoteca di Pesaro (1993) il declassamento a opera anonima di questo forte dipinto, il cui quesito attributivo risultava già ben orientato dalla precedente vicenda critica. Riferito a Giovanni Giacomo Sementi nel 1806, all'atto dell'acquisizione per via ereditaria da parte di Maria Malvezzi Hercolani ( "Adone morto, Venere e Amore che piangono, del Sementi"), e come tale ancora ricordato da Bassani (1816) e catalogato nel 1824 ("Venere, Adone, con Amorino che piange, del Sementi"), sarebbe addirittura assurto al rango di un Guido Reni nell'ultimo inventario della raccolta , risalente agli anni sessanta del XIX secolo.
+			\end{minipage}
+		\end{center}
+	\end{tabularx}
+	
+	% Background image
+	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image-plain}}
+	\newpage
+	
+	%--------- Final page ----------
+	
+	\setkeys{Gin}{draft=false}
+	
+	\vspace*{\fill}
+	\begin{center}
+			\begin{minipage}{0.8\linewidth}
+			\doclicenseThis
+		\end{minipage}
+	\end{center}
+	
+	% Background image
+	\AddToShipoutPictureBG*{\includegraphics[draft=false, width=\paperwidth,height=\paperheight]{example-image}}
 	
 \end{document}
