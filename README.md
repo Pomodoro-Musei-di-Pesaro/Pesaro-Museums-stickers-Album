@@ -20,6 +20,7 @@ Album di figurine per i Musei di Pesaro.
 # Details
 [![GitHub commits](https://badgen.net/github/commits/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/commit/)
 [![GitHub stars](https://badgen.net/github/stars/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/stargazers/)
+![GitHub watchers](https://img.shields.io/github/watchers/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album?color=blue&link=https%3A%2F%2Fgithub.com%2FPomodoro-Musei-di-Pesaro%2FPesaro-Museums-stickers-Album%2Fwatchers)
 [![GitHub issues](https://img.shields.io/github/issues/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/issues/)
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album.svg)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub forks](https://badgen.net/github/forks/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/)](https://GitHub.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/network/)
@@ -28,7 +29,8 @@ Album di figurine per i Musei di Pesaro.
 ---
 
 # In caso di nessuna Release
-- Scarica il [documento](https://nightly.link/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/workflows/LaTeX_Action/main/Album.zip) dimostrativo.
+[![Download](https://custom-icon-badges.demolab.com/badge/-Scarica%20i%20documenti%20dimostrativi-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://nightly.link/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/workflows/LaTeX_Action/main/Album.zip)
+
 
 ---
 
