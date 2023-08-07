@@ -13,11 +13,17 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with: # insert here files to compile
           working_directory: Stickers_Album
-          root_file: Stickers_Album.tex
+          root_file: |
+            Stickers_Album.tex
+            Stickers.tex
       - name: Ridenominazione files
-        run: mv Stickers_Album/Stickers_Album.pdf Stickers_Album/Album_di_Figurine.pdf
+        run: |
+          mv Stickers_Album/Stickers_Album.pdf Stickers_Album/Album_di_Figurine.pdf
+          mv Stickers_Album/Stickers.pdf Stickers_Album/Figurine.pdf
       - name: Caricamento della Release temporanea
         uses: actions/upload-artifact@v3
         with: 
-          name: Album
-          path: Stickers_Album/Album_di_Figurine.pdf
+          name: Album&Stickers
+          path: |
+            Stickers_Album/Album_di_Figurine.pdf
+            Stickers_Album/Figurine.pdf
