@@ -29,7 +29,7 @@ Album di figurine per i Musei di Pesaro.
 ---
 
 # In caso di nessuna Release
-[![Download](https://custom-icon-badges.demolab.com/badge/-Scarica%20i%20documenti%20dimostrativi-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://nightly.link/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/workflows/LaTeX_Action/main/Album.zip)
+[![Download](https://custom-icon-badges.demolab.com/badge/-Scarica%20i%20documenti%20dimostrativi-blue?style=for-the-badge&logo=download&logoColor=white "Documenti")](https://nightly.link/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/workflows/LaTeX_Action/main/Album.zip)
 
 
 ---
