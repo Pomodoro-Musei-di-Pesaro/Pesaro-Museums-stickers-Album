@@ -21,7 +21,7 @@ jobs:
           mv Stickers_Album/Stickers_Album.pdf Stickers_Album/Album_di_Figurine.pdf
           mv Stickers_Album/Stickers.pdf Stickers_Album/Figurine.pdf
       - name: Caricamento della Release temporanea
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with: 
           name: Album&Stickers
           path: |
