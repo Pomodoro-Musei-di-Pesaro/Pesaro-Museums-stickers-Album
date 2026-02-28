@@ -36,6 +36,50 @@ Album di figurine per i Musei di Pesaro.
 
 ---
 
+<details>
+<summary>
+	
+## 👉 Read the documents
+
+</summary>
+
+<details>
+<summary>
+	
+### 👉 Stickers
+
+</summary>
+
+![0001.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers/0001.png)
+![0002.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers/0002.png)
+![0003.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers/0003.png)
+![0004.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers/0004.png)
+![0005.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers/0005.png)
+![0006.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers/0006.png)
+
+</details>
+
+<details>
+<summary>
+	
+### 👉 Stickers Album
+
+</summary>
+
+![0001.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers_Album/0001.png)
+![0002.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers_Album/0002.png)
+![0003.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers_Album/0003.png)
+![0004.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers_Album/0004.png)
+![0005.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers_Album/0005.png)
+![0006.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers_Album/0006.png)
+![0007.png](https://github.com/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/blob/main/Readme_imgs/Stickers_Album/0007.png)
+
+</details>
+
+</details>
+
+---
+
 ## In caso di nessuna Release
 
 [![Download](https://custom-icon-badges.demolab.com/badge/-Scarica%20i%20documenti%20dimostrativi-blue?style=for-the-badge&logo=download&logoColor=white "Documenti")](https://nightly.link/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/workflows/LaTeX_Action/main/Album.zip)
