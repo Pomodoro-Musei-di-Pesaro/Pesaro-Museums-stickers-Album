@@ -1,13 +1,13 @@
 [
   {
-    "path": "/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/pulls",
-    "title": "/pulls",
-    "count": 3,
-    "uniques": 2
-  },
-  {
     "path": "/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album",
     "title": "Overview",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/pulls",
+    "title": "/pulls",
     "count": 1,
     "uniques": 1
   }
