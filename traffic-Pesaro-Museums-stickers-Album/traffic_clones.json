@@ -5683,11 +5683,6 @@
       "uniques": 12
     },
     {
-      "timestamp": "2026-09-09T00:00:00Z",
-      "count": 8,
-      "uniques": 6
-    },
-    {
       "timestamp": "2026-09-08T00:00:00Z",
       "count": 7,
       "uniques": 5
@@ -5696,6 +5691,11 @@
       "timestamp": "2026-09-10T00:00:00Z",
       "count": 9,
       "uniques": 7
+    },
+    {
+      "timestamp": "2026-09-09T00:00:00Z",
+      "count": 8,
+      "uniques": 6
     },
     {
       "timestamp": "2026-09-11T00:00:00Z",
