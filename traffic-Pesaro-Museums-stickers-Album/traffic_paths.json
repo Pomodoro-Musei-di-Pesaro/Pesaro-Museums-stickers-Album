@@ -1,11 +1,5 @@
 [
   {
-    "path": "/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album",
-    "title": "Overview",
-    "count": 1,
-    "uniques": 1
-  },
-  {
     "path": "/Pomodoro-Musei-di-Pesaro/Pesaro-Museums-stickers-Album/actions/workflows/LaTeX_Action.yml",
     "title": "/actions/workflows/LaTeX_Action.yml",
     "count": 1,
